@@ -2,6 +2,8 @@
 
 一个静态手机壁纸展示站。壁纸图片直接存放在 GitHub 仓库中，页面通过 `data/wallpapers.json` 渲染图库。
 
+Live site: https://lookaroundpa.github.io/heart-wallpaper/
+
 ## Structure
 
 ```text
