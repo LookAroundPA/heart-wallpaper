@@ -7,34 +7,42 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <canvas id="wallpaper" aria-label="Animated heart wallpaper"></canvas>
-
-    <main class="panel" aria-label="Wallpaper controls">
-      <div class="brand">
-        <span class="mark" aria-hidden="true"></span>
-        <div>
-          <h1>Heart Wallpaper</h1>
-          <p>流动的爱心粒子壁纸</p>
-        </div>
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">Mobile Wallpapers</p>
+        <h1>Heart Wallpaper</h1>
+        <p class="intro">精选 9:16 手机壁纸，定期更新，可预览和下载。</p>
       </div>
+      <a class="github-link" href="https://github.com/LookAroundPA/heart-wallpaper" target="_blank" rel="noreferrer">GitHub</a>
+    </header>
 
-      <section class="controls" aria-label="Controls">
-        <label>
-          <span>Glow</span>
-          <input id="glow" type="range" min="0.3" max="1.8" value="1" step="0.1" />
+    <main>
+      <section class="toolbar" aria-label="Wallpaper filters">
+        <label class="search-field">
+          <span>搜索</span>
+          <input id="search" type="search" placeholder="heart, neon, pink" autocomplete="off" />
         </label>
-        <label>
-          <span>Motion</span>
-          <input id="motion" type="range" min="0.2" max="2" value="1" step="0.1" />
-        </label>
-        <label>
-          <span>Density</span>
-          <input id="density" type="range" min="80" max="300" value="170" step="10" />
-        </label>
+        <div class="tag-filter" id="tagFilter" aria-label="Tags"></div>
       </section>
 
-      <button id="save" type="button">Save PNG</button>
+      <section class="gallery" id="gallery" aria-label="Wallpaper gallery"></section>
+      <p class="empty" id="empty" hidden>还没有壁纸。把图片放进 assets/wallpapers/，并在 data/wallpapers.json 里登记后就会显示在这里。</p>
     </main>
+
+    <template id="wallpaperCardTemplate">
+      <article class="wallpaper-card">
+        <a class="preview-link" target="_blank" rel="noreferrer">
+          <img alt="" loading="lazy" />
+        </a>
+        <div class="card-meta">
+          <div>
+            <h2></h2>
+            <p></p>
+          </div>
+          <a class="download-link" download>下载</a>
+        </div>
+      </article>
+    </template>
 
     <script src="script.js"></script>
   </body>
