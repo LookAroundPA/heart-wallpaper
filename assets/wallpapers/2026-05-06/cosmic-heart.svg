@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" role="img" aria-label="Cosmic heart mobile wallpaper">
+  <defs>
+    <radialGradient id="space" cx="50%" cy="44%" r="72%">
+      <stop offset="0" stop-color="#482c73"/><stop offset=".45" stop-color="#0f1430"/><stop offset="1" stop-color="#02040a"/>
+    </radialGradient>
+    <radialGradient id="nebula" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffd0e1"/><stop offset=".42" stop-color="#ff6aa6"/><stop offset="1" stop-color="#6ad8ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#space)"/>
+  <g fill="#fff" opacity=".55"><circle cx="160" cy="260" r="2"/><circle cx="850" cy="340" r="2"/><circle cx="920" cy="980" r="1.5"/><circle cx="240" cy="1360" r="2"/><circle cx="640" cy="1640" r="1.5"/></g>
+  <path d="M540 1190C330 1000 250 870 280 706c22-118 176-176 260-22 84-154 238-96 260 22 30 164-50 294-260 484Z" fill="url(#nebula)" opacity=".95" filter="url(#blur)"/>
+  <path d="M540 1190C330 1000 250 870 280 706c22-118 176-176 260-22 84-154 238-96 260 22 30 164-50 294-260 484Z" fill="none" stroke="#ffd9ea" stroke-width="4" opacity=".35"/>
+</svg>
