@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "title": "Neon Heart",
+    "description": "A glowing neon heart wallpaper with magenta and cyan light.",
+    "src": "assets/wallpapers/2026-05-06/neon-heart.svg",
+    "thumbnail": "assets/wallpapers/2026-05-06/neon-heart.svg",
+    "filename": "neon-heart.svg",
+    "ratio": "9:16",
+    "tags": ["heart", "neon", "pink"],
+    "alt": "Neon heart mobile wallpaper"
+  },
+  {
+    "title": "Silk Heart",
+    "description": "A soft romantic heart made from flowing silk ribbons.",
+    "src": "assets/wallpapers/2026-05-06/silk-heart.svg",
+    "thumbnail": "assets/wallpapers/2026-05-06/silk-heart.svg",
+    "filename": "silk-heart.svg",
+    "ratio": "9:16",
+    "tags": ["heart", "soft", "romantic"],
+    "alt": "Silk ribbon heart mobile wallpaper"
+  },
+  {
+    "title": "AMOLED Heart",
+    "description": "A minimal black wallpaper with a small crimson neon heart.",
+    "src": "assets/wallpapers/2026-05-06/amoled-heart.svg",
+    "thumbnail": "assets/wallpapers/2026-05-06/amoled-heart.svg",
+    "filename": "amoled-heart.svg",
+    "ratio": "9:16",
+    "tags": ["heart", "amoled", "minimal"],
+    "alt": "Minimal AMOLED heart mobile wallpaper"
+  },
+  {
+    "title": "Cosmic Heart",
+    "description": "A dreamy heart-shaped nebula in a violet night sky.",
+    "src": "assets/wallpapers/2026-05-06/cosmic-heart.svg",
+    "thumbnail": "assets/wallpapers/2026-05-06/cosmic-heart.svg",
+    "filename": "cosmic-heart.svg",
+    "ratio": "9:16",
+    "tags": ["heart", "cosmic", "violet"],
+    "alt": "Cosmic heart nebula mobile wallpaper"
+  }
+]
